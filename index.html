@@ -19,7 +19,6 @@
 </head>
 <body>
 
-<!-- ============ HEADER ============ -->
 <header class="site-header">
   <div class="container">
     <a href="index.html" class="brand">
@@ -28,7 +27,7 @@
     </a>
     <nav class="gnav pc-only">
       <ul class="gnav-list">
-        <li><a href="index.html">TOP</a></li>
+        <li><a href="index.html" class="is-active">TOP</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="service.html">SERVICE</a></li>
         <li><a href="company.html">COMPANY</a></li>
@@ -63,48 +62,78 @@
   </div>
 </div>
 
-<!-- ============ HERO ============ -->
+<!-- ============ HERO（コラージュ型） ============ -->
 <section class="hero">
-  <div class="hero-bg"><img src="images/photos/photo-room.jpg" alt="株式会社テストが手がけたリビングの施工事例"></div>
-  <div class="container hero-inner">
-    <p class="eyebrow">Test Co., Ltd.</p>
-    <h1 class="reveal">お客様の想いをカタチにし、<br><span>笑顔が集まる空間</span>を創造する。</h1>
-    <div class="hero-rule reveal reveal-delay-1"></div>
-    <p class="reveal reveal-delay-1">名古屋市中村区を拠点に、室内・店舗のリフォームから浴室・トイレ・キッチンなど水回りの改装まで。確かな技術と柔軟な発想力で、あなたの理想の空間をカタチにします。</p>
-    <div class="hero-actions reveal reveal-delay-2">
-      <a href="contact.html" class="btn btn--primary">無料相談・お見積り</a>
-      <a href="service.html" class="btn btn--outline">事業内容を見る</a>
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow reveal">Test Co., Ltd.</p>
+      <h1 class="reveal">お客様の想いをカタチにし、<br><span>笑顔が集まる空間</span>を創造する。</h1>
+      <div class="hero-rule reveal reveal-delay-1"></div>
+      <p class="lead reveal reveal-delay-1">名古屋市中村区を拠点に、室内・店舗のリフォームから浴室・トイレ・キッチンなど水回りの改装まで。確かな技術と柔軟な発想力で、あなたの理想の空間をカタチにします。</p>
+      <div class="hero-actions reveal reveal-delay-2">
+        <a href="contact.html" class="btn btn--primary">無料相談・お見積り</a>
+        <a href="service.html" class="btn btn--outline">事業内容を見る</a>
+      </div>
+    </div>
+    <div class="hero-collage reveal reveal-delay-1">
+      <div class="ph-main"><img src="images/photos/photo-room.jpg" alt="株式会社テストが手がけたリビングの施工事例"></div>
+      <div class="ph-accent"><img src="images/photos/photo-kitchen.jpg" alt="株式会社テストが手がけたキッチンの施工事例"></div>
+      <div class="hero-badge"><strong>1999〜</strong><span>創業</span></div>
     </div>
   </div>
-  <div class="hero-scroll pc-only">Scroll</div>
 </section>
 
-<!-- ============ CONCEPT MESSAGE ============ -->
-<section class="concept-msg container">
-  <p class="reveal">住まいや店舗は、暮らしとともに育っていくもの。株式会社テストは地域に根を張り、お客様の日常に寄り添いながら、心地よい空間づくりを続けてきました。</p>
-</section>
-
-<!-- ============ STATS ============ -->
-<div class="container">
-  <div class="stats reveal">
-    <div class="stats-item">
-      <div class="stats-num"><span data-count="1999">1999</span></div>
-      <div class="stats-label">設立</div>
+<!-- ============ CONCEPT 3カラム ============ -->
+<section class="section section--sm">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Concept</p>
+      <h2 class="section-title">根を張る、暮らしを育てる。</h2>
+      <p class="section-lead">住まいや店舗は、暮らしとともに育っていくもの。株式会社テストは地域に根を張り、お客様の日常に寄り添いながら、心地よい空間づくりを続けてきました。</p>
     </div>
-    <div class="stats-item">
-      <div class="stats-num"><span data-count="5">5</span><span>事業</span></div>
-      <div class="stats-label">室内・店舗・浴室・トイレ・キッチン</div>
-    </div>
-    <div class="stats-item">
-      <div class="stats-num"><span data-count="1">1</span><span>棟から</span></div>
-      <div class="stats-label">住宅・店舗どちらもご相談可能</div>
-    </div>
-    <div class="stats-item">
-      <div class="stats-num">愛知</div>
-      <div class="stats-label">名古屋市中村区 名駅1丁目</div>
+    <div class="concept-cols">
+      <div class="concept-col reveal">
+        <div class="ico">🌱</div>
+        <h3>想いに寄り添う</h3>
+        <p>お客様の「こんな場所にしたい」という想いを丁寧にお伺いします。</p>
+      </div>
+      <div class="concept-col reveal reveal-delay-1">
+        <div class="ico">🌿</div>
+        <h3>確かな技術力</h3>
+        <p>室内から水回りまで、幅広い施工実績に裏打ちされた確かな技術。</p>
+      </div>
+      <div class="concept-col reveal reveal-delay-2">
+        <div class="ico">🍃</div>
+        <h3>育っていく暮らし</h3>
+        <p>完成がゴールではなく、そこから始まる日常を大切にデザインします。</p>
+      </div>
     </div>
   </div>
-</div>
+</section>
+
+<!-- ============ STATS（円形バッジ） ============ -->
+<section class="section section--sm section--cream-deep">
+  <div class="container">
+    <div class="stat-badges reveal">
+      <div class="stat-badge">
+        <div class="circle"><span class="num-big">1999</span></div>
+        <div class="stat-badge-label">設立</div>
+      </div>
+      <div class="stat-badge">
+        <div class="circle"><span class="num-big">5</span><span class="unit">事業</span></div>
+        <div class="stat-badge-label">室内・店舗・水回り</div>
+      </div>
+      <div class="stat-badge">
+        <div class="circle"><span class="num-big">1</span><span class="unit">棟から</span></div>
+        <div class="stat-badge-label">住宅・店舗どちらも</div>
+      </div>
+      <div class="stat-badge">
+        <div class="circle" style="font-size:1.1rem;">愛知</div>
+        <div class="stat-badge-label">名古屋市中村区</div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ============ SERVICE DIGEST ============ -->
 <section class="section" id="service">
@@ -120,7 +149,7 @@
         <div class="tile-body">
           <div class="tile-num">01</div>
           <h3 class="tile-title">室内リフォーム</h3>
-          <p class="tile-text">壁紙・床材の張り替えから間取り変更まで、暮らしやすさとデザイン性を兼ね備えた住まいへ。</p>
+          <p class="tile-text">暮らしやすさとデザイン性を兼ね備えた住まいへ。</p>
           <a href="service.html#room" class="tile-link">More
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -131,7 +160,7 @@
         <div class="tile-body">
           <div class="tile-num">02</div>
           <h3 class="tile-title">店舗リフォーム</h3>
-          <p class="tile-text">コンセプトや業態に合わせた内装デザインから施工まで。集客につながる店舗空間をご提案。</p>
+          <p class="tile-text">集客につながる印象的な店舗空間をご提案。</p>
           <a href="service.html#shop" class="tile-link">More
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -142,7 +171,7 @@
         <div class="tile-body">
           <div class="tile-num">03</div>
           <h3 class="tile-title">浴室改装</h3>
-          <p class="tile-text">毎日の疲れを癒やす浴室を、快適で使いやすい空間へ。清掃性・安全性にも配慮します。</p>
+          <p class="tile-text">清掃性・安全性にも配慮した快適な浴室へ。</p>
           <a href="service.html#bath" class="tile-link">More
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -153,7 +182,7 @@
         <div class="tile-body">
           <div class="tile-num">04</div>
           <h3 class="tile-title">トイレリフォーム</h3>
-          <p class="tile-text">清潔・快適・使いやすさを両立。限られたスペースを有効活用したトイレ空間をつくります。</p>
+          <p class="tile-text">限られたスペースを有効活用した快適な空間。</p>
           <a href="service.html#toilet" class="tile-link">More
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -164,7 +193,7 @@
         <div class="tile-body">
           <div class="tile-num">05</div>
           <h3 class="tile-title">キッチンリフォーム</h3>
-          <p class="tile-text">家事のしやすさとデザイン性を両立。ライフスタイルに合わせた理想のキッチンへ。</p>
+          <p class="tile-text">家事のしやすさとデザイン性を両立したキッチンへ。</p>
           <a href="service.html#kitchen" class="tile-link">More
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -174,34 +203,42 @@
   </div>
 </section>
 
-<!-- ============ WHY CHOOSE US ============ -->
-<section class="section section--cream-deep">
+<!-- ============ WHY CHOOSE US（チェックリスト） ============ -->
+<section class="section section--sage">
   <div class="container">
     <div class="section-head reveal">
       <p class="eyebrow">Why Us</p>
       <h2 class="section-title">株式会社テストが選ばれる理由</h2>
       <p class="section-lead">「こんな場所にしたい」という想いに、確かな技術と柔軟な発想で応えます。</p>
     </div>
-    <div class="reasons">
-      <div class="reason reveal">
-        <div class="reason-num">01</div>
-        <h3>丁寧なヒアリング</h3>
-        <p>お客様の理想やこだわりを丁寧にお伺いし、対話を重ねながらプランをつくります。</p>
+    <div class="checklist">
+      <div class="checklist-item reveal">
+        <div class="num">01</div>
+        <div>
+          <h3>丁寧なヒアリング</h3>
+          <p>お客様の理想やこだわりを丁寧にお伺いし、対話を重ねながらプランをつくります。</p>
+        </div>
       </div>
-      <div class="reason reveal reveal-delay-1">
-        <div class="reason-num">02</div>
-        <h3>デザイン性と暮らしやすさ</h3>
-        <p>見た目の美しさだけでなく、毎日使う場所としての快適さ・使いやすさを両立します。</p>
+      <div class="checklist-item reveal reveal-delay-1">
+        <div class="num">02</div>
+        <div>
+          <h3>デザイン性と暮らしやすさ</h3>
+          <p>見た目の美しさだけでなく、毎日使う場所としての快適さ・使いやすさを両立します。</p>
+        </div>
       </div>
-      <div class="reason reveal reveal-delay-2">
-        <div class="reason-num">03</div>
-        <h3>住宅から店舗まで幅広く対応</h3>
-        <p>室内・店舗・浴室・トイレ・キッチンまで、暮らしと事業のご要望に総合的にお応えします。</p>
+      <div class="checklist-item reveal reveal-delay-2">
+        <div class="num">03</div>
+        <div>
+          <h3>住宅から店舗まで幅広く対応</h3>
+          <p>室内・店舗・浴室・トイレ・キッチンまで、暮らしと事業のご要望に総合的にお応えします。</p>
+        </div>
       </div>
-      <div class="reason reveal reveal-delay-3">
-        <div class="reason-num">04</div>
-        <h3>設計から施工、アフターまで</h3>
-        <p>ご相談から現地調査、プラン提案、施工、お引き渡し後まで一貫してサポートします。</p>
+      <div class="checklist-item reveal reveal-delay-3">
+        <div class="num">04</div>
+        <div>
+          <h3>設計から施工、アフターまで</h3>
+          <p>ご相談から現地調査、プラン提案、施工、お引き渡し後まで一貫してサポートします。</p>
+        </div>
       </div>
     </div>
   </div>
@@ -237,7 +274,6 @@
   </div>
 </section>
 
-<!-- ============ FOOTER ============ -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-top">
